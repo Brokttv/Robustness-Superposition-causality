@@ -16,13 +16,21 @@ Replication of "Adversarial Examples Are Not Bugs, They Are Superposition" [pape
 
 Section 3.2 lacks dedicated plots for the vulnerability trend. The vulnerability curve is not presented as a standalone figure but is instead embedded alongside other measurements, making it harder to isolate and interpret the core claim of this section independently.
 
+<br>
+  
+<p align="center">
+  <img src="assets/i.jpeg" width="750"/>
+</p>
+<br>
+
+<br>
 ### Section 3.3 — Robustness acting on superposition
 
 The figures in section 3.3 combine results from both 3.2 and 3.1 in the same plots, presenting superposition measurements from clean and adversarially trained models alongside the vulnerability curve from 3.2. This conflation makes it ambiguous which results belong to which experimental claim and complicates direct interpretation of the bidirectional causality argument.
 
 ### Vulnerability metric
 
-The paper describes the vulnerability metric qualitatively as how many times more vulnerable it is than a model without superposition , but never specifies it as an explicit formula. In this replication we operationalize it as:
+The paper describes the vulnerability metric in prose , but never specifies it as an explicit formula which can lead to some confusion. In this replication we operationalize it as:
 
 $$\text{vulnerability}(S) = \frac{\text{loss}_{\text{adv}}(S) / \text{loss}_{\text{clean}}(S)}{\text{loss}_{\text{adv}}(S=0) / \text{loss}_{\text{clean}}(S=0)}$$
 

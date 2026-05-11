@@ -22,7 +22,7 @@ The figures in section 3.3 combine results from both 3.2 and 3.1 in the same plo
 
 ### Vulnerability metric
 
-The paper describes the vulnerability metric qualitatively as reconstruction error under attack relative to clean reconstruction error, but never specifies it as an explicit formula. In this replication we operationalize it as:
+The paper describes the vulnerability metric qualitatively as how many times more vulnerable it is than a model without superposition , but never specifies it as an explicit formula. In this replication we operationalize it as:
 
 $$\text{vulnerability}(S) = \frac{\text{loss}_{\text{adv}}(S) / \text{loss}_{\text{clean}}(S)}{\text{loss}_{\text{adv}}(S=0) / \text{loss}_{\text{clean}}(S=0)}$$
 

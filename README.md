@@ -16,11 +16,12 @@ Replication of "Adversarial Examples Are Not Bugs, They Are Superposition" [pape
 
 Section 3.2 lacks dedicated plots for the vulnerability trend. The vulnerability curve is not presented as a standalone figure but is instead embedded alongside other measurements, making it harder to isolate and interpret the core claim of this section independently.
 
-> Here are two simple for the experiments:
+> Here are two simple plots for the experiments:
+#### PS: instead of plotting tow lines for each model training regime, we use delta as the difference between superpostion in a normal model and superposition in a robust model. Bigger and positve difference shows that robust models have generally lower supeprostion rates.
 <br>
   
 <p align="center">
-  <img src="assets/i.jpeg" width="750"/>
+  <img src="assets/i.jpeg" width="800"/>
 </p>
 <br>
 

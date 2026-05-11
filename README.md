@@ -16,7 +16,7 @@ Replication of "Adversarial Examples Are Not Bugs, They Are Superposition" [pape
 
 Section 3.2 lacks dedicated plots for the vulnerability trend. The vulnerability curve is not presented as a standalone figure but is instead embedded alongside other measurements, making it harder to isolate and interpret the core claim of this section independently.
 
-> Here are two simple plots for each experiment:
+> Here are two simple for the experiments:
 <br>
   
 <p align="center">

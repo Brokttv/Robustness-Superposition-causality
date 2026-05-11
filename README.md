@@ -1,6 +1,12 @@
 # Robustness-Superposition-causality
 Replication of "Adversarial Examples Are Not Bugs, They Are Superposition" paper.
 
+<br>
+  
+<p align="center">
+  <img src="assets/img.jpeg" width="500"/>
+</p>
+<br>
 
 ## Setup
 ```bash

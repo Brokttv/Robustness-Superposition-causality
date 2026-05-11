@@ -1,5 +1,5 @@
 # Robustness-Superposition-causality
-Replication of "Adversarial Examples Are Not Bugs, They Are Superposition" [paper](https://arxiv.org/pdf/2508.17456).
+In this repo, I replicate the key experiments of "Adversarial Examples Are Not Bugs, They Are Superposition" [paper](https://arxiv.org/pdf/2508.17456) namely section 3 focused on toy models.
 
 <br>
   

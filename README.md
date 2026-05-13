@@ -16,6 +16,14 @@ In this repo, I replicate the key experiments of "Adversarial Examples Are Not B
 
 Section 3.2 lacks dedicated plots for the vulnerability trend. The vulnerability curve is not presented as a standalone figure but is instead embedded alongside other measurements, making it harder to isolate and interpret the core claim of this section independently.
 
+
+
+<br>
+
+### Section 3.3 — Robustness acting on superposition
+
+The figures in section 3.3 combine results from both 3.2 and 3.1 in the same plots, presenting superposition measurements from clean and adversarially trained models alongside the vulnerability curve from 3.2. This conflation makes it ambiguous which results belong to which experimental claim and complicates direct interpretation of the bidirectional causality argument.
+<br> <br>
 > Here are two simple plots for the experiments:
 
 <br>
@@ -26,10 +34,6 @@ Section 3.2 lacks dedicated plots for the vulnerability trend. The vulnerability
 <br>
 
 <br>
-
-### Section 3.3 — Robustness acting on superposition
-
-The figures in section 3.3 combine results from both 3.2 and 3.1 in the same plots, presenting superposition measurements from clean and adversarially trained models alongside the vulnerability curve from 3.2. This conflation makes it ambiguous which results belong to which experimental claim and complicates direct interpretation of the bidirectional causality argument.
 
 ### Vulnerability metric
 

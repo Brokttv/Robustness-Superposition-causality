@@ -14,5 +14,5 @@ def set_seed(seed: int):
  
  
 def superposition(model):
-    return (model.w ** 2).sum().item() / model.w.shape[0]
+    return (model.w ** 2).sum().item() / model.w.shape[1]
  
